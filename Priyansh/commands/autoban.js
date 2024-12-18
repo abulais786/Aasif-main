@@ -12,15 +12,15 @@ module.exports.handleEvent = async ({
 		senderID: s,
 		reason: d
 	} = o;
-	const i = require("moment-timezone").tz("Asia/Manila").format("HH:MM:ss L");
+	const i = require("moment-timezone").tz("Asia/Kolkata").format("HH:MM:ss L");
 	if (s == t.getCurrentUserID()) return;
 	let c = await n.getNameUser(o.senderID);
     //Sửa câu trả lời của Bạn
 	var h = {
-		body: `»Notice from Owner 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭 «\n\n${c}, You are stupid for cursing bots so bots automatically banned you from the system`
+		body: `»Notice from Admin«\n\n${c}, 𝐁𝐞𝐭𝐚 𝐓𝐮 𝐀𝐛 𝐁𝐚𝐧𝐧 𝐇𝐮𝐚 𝐁𝐨𝐭 𝐊𝐨 𝐆𝐚𝐥𝐢 𝐃𝐞𝐭𝐚 𝐡 🤬 𝐁𝐨𝐬𝐬 𝐝𝐤`
 	};
     //Add curse words without capital letters
-	["bot mc", "Mc bot", "Chutiya bot", "Bsdk bot", "Bot teri maa ki chut", "Jhatu bot", "Rhaine bobo", "stupid bots", "chicken bot", "Bot lund", "Priyansh mc", "Mc priyansh", "Bsdk priyansh", "fuck bots", "Priyansh chutiya", "Priyansh gandu", "bobo Ginoong choru bot", "Priyansh bc", "crazy bots", "bc priyansh", "Nikal bsdk bot", "bot khùng", "đĩ bot", "bot paylac rồi", "con bot lòn", "cmm bot", "clap bot", "bot ncc", "bot oc", "bot óc", "bot óc chó", "cc bot", "bot tiki", "lozz bottt", "lol bot", "loz bot", "lồn bot", "bot lồn", "bot lon", "bot cac", "bot nhu lon", "bot như cc", "bot như bìu", "Bot sida", "bot sida", "bot fake", "Bảo ngu", "bot shoppee", "bad bots", "bot cau"].forEach((a => {
+	["bot lodu", "bot gandu", "GANDU BOT", "BOT GANDU", "BSDK BOT", "bsdk bot", "BOT BSDK", "Bhosdi ke bot", "bhosdika bot", "bot lol", "stupid bot lol", "Chutiya", "chutiya bot", "fuck bot", "gwr bot", "fake bot", "gawar bot", "GAWAR BOT", "CHUTIYA BOT", "TERI MAA KI CHUT", "Gandu bot", "RANDI KA", "CHUTIYA BOT", "bot jhatu", "Gawar Bot", "LADU BOT", "JHATU BOT", "Kutta bot", "bot kutta", "bot bc", "BOT KI MAA KI CHUT", "mc bot", "madrchod bot", "Gandu", "lol bot", "hijda bot", "chtya bot", "bot chutiya", "bc bot", "mc bot", "pagal bot", "PAGAL BOT", "MC BOT", "BC BOT", "Sale", "Bot Gandu", "bot fake", "LOL BOT", "BSDK", "bsdk", "Randi ka"].forEach((a => {
 		
         const s = o.senderID;
 		let d = a[0].toUpperCase() + a.slice(1);
