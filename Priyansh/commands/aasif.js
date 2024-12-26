@@ -1,8 +1,8 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "0000aasif",
+	name: "aasif",
   version: "1.0.1",
-	hasPermssion: 2,
+	hasPermssion: ,
 	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩", 
 	description: "hihihihi",
 	commandCategory: "no prefix",
@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Aasif")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝P̶R̶I̶Y̶A̶N̶S̶H̶𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ᴆ』†٭❯")==0 || event.body.indexOf("@Aasif Alam")==0 || event.body.indexOf("Aasif")==0) {
+	if (event.body.indexOf("@Aasif")==0 || event.body.indexOf("Alam")==0 || event.body.indexOf("@Aasif Alam")==0 || event.body.indexOf("Aasif")==0) {
 		var msg = {
 				body: "Aasif Alam ✨💖🥀",
 				attachment: fs.createReadStream(__dirname + `/noprefix/profi.jpeg`)
