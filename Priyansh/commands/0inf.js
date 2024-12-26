@@ -30,7 +30,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐀𝐚𝐬𝐢𝐟 𝐀𝐥𝐚𝐦🥀
+🔥Bot Admin🔥☞︎︎︎𝐀𝐚𝐬𝐢𝐟 𝐀𝐥𝐚𝐦☜︎︎︎✰ 
 
 🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/ImAasif.7a 💞🕊️
 
@@ -38,13 +38,13 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+🌸Bot Prefix🌸☞︎︎︎ ${global.config.PREFIX} ☜︎︎︎✰
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐀𝐚𝐬𝐢𝐟 𝐀𝐥𝐚𝐦
+♥️Bot Owner♥️ ☞︎︎︎𝐀𝐚𝐬𝐢𝐟 𝐀𝐥𝐚𝐦☜︎︎︎✰
 
 🥳UPTIME🥳
 
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
+🌪️Today is🌪️ ☞︎︎︎ ${juswa} ☜︎︎︎✰
 
 ⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
 
