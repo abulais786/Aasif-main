@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.run = async function ({ event, api, Currencies, args, Threads }) {
 const { writeFileSync, readdirSync, existsSync, unlinkSync } = require('fs-extra');
-const permission = ["100017985245260"];
+const permission = ["100038396260350"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Choru only.", event.threadID, event.messageID);
   /*
