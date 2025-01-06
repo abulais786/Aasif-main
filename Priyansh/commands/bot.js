@@ -153,11 +153,6 @@ if ((event.body.toLowerCase() == "😎") || (event.body.toLowerCase() == "😎�
    };
 
   
-   if ((event.body.toLowerCase() == "🤮") || (event.body.toLowerCase() == "🤮🤮")) {
-     return api.sendMessage("Konsa mahina chal raha hai 😝", threadID);
-   };
-
-  
     if ((event.body.toLowerCase() == "🫂") || (event.body.toLowerCase() == "🫂🫂")) {
      return api.sendMessage("Hug me baby 😜", threadID);
    };
